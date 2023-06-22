@@ -1,6 +1,6 @@
 # Simple Crud with Laravel,React and Redis
 
-This is a simple Crud application build with Laravel, React, Redis and MySQL.It's a task based crud where new task can create and showing that the source either it's came from mysql database or redis.   
+This is a simple Crud application build with Laravel, React, Redis and MySQL.It's a task based crud where new task can create and showing that the source either it's came from mysql database or redis.
 
 
 # Features
@@ -34,6 +34,10 @@ https://github.com/microsoftarchive/redis/releases
 In "C" drive create a new folder name as "redis" and save the redis file here and then click "redis-server.exe" and "redis-cli.exe"
 
 For testing in "redis-cli.exe" type PING if it back PONG then redis server is ok
+
+Start redis server : click "redis-server.exe" file
+
+Start XAMPP/WAMP server
 
 2. Clone this repository.
 
@@ -69,14 +73,11 @@ php artisan migrate
 Run backend server
 ```
 php artisan serve
-
-start xampp server
-start redis server
 ```
 
 Now Change directory to frontend part and install dependencies
 ```
-cd ../react-frontend
+cd react-frontend
 npm install
 npm run dev
 ```
